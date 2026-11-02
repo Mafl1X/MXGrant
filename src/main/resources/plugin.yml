@@ -1,0 +1,14 @@
+name: MXGrant
+version: 1.0.0
+main: me.mafl1x.mxgrant.MXGrant
+api-version: 1.16
+author: mafl1x
+depend:
+  - Vault
+  - LuckPerms
+
+commands:
+  grant:
+    description: Open grant menu for a player
+    usage: /grant <player>
+    permission: MXGrant.grant
